@@ -72,12 +72,12 @@ def diamond(height):
     for i in range(height):
         diamond += (make_space_line(height - i - 1, 2* i + 1)) + "\n"
     for i in range (height -1, -1 , -1):
-        diamond += (make_space_line(height -i - 1, 2* i + 1)) + "\n"
+        diamond += (make_space_line(height - i - 1, 2* i + 1)) + "\n"
     return diamond
 
-
+'''
 print(diamond(5))
-
+'''
 
 
 
